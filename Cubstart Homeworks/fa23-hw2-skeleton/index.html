@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- (Part 2: CSS, Question 0) Font import here. If you don't know what this is yet, don't worry, we cover this in the Part 2 of the homework.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&display=swap" rel="stylesheet">
+    <title>Daniel Jiang</title>
+</head>
+<body>
+        <!-- Part 1: Question 0. Add an image of yourself here. --><img src="file:///Users/danieljiang/Downloads/IMG_8800.JPG">
+        <h1>Daniel Jiang</h1>
+        <!-- Question 1. Add a unique id to each div that belongs to the class "section-wrapper".-->
+        <div class="section-wrapper" id="education">
+            <h2>Education</h2>
+            <h3>UC Berkeley | <em>B.A. Computer Science and Data Science Minor</em> | May 2025</h3>
+                <b>Relevant Coursework: </b>
+                <p>Machine Structures, Introduction to Building Apps, Data Structures & Algorithms, 
+                    Structure & Interpretation of Computer Programs, Discrete Mathematics & Probability Theory, Foundations 
+                    of Data Science, Principles & Techniques of Data Science, Designing Information Devices & Systems l, Linear Algebra & Differential Equations</p>
+            <!-- Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em). -->
+        </div>
+
+        <div class="section-wrapper" id="experience">
+            <h2>Experience</h2>
+            <!-- Question 3a. Create 2 to 3 divs with the same class (experience-list-item), and fill them in with your work experiences. -->
+            <div class="experience-wrapper">
+                <div class="experience-list-item">
+                    <h3>Figma | <em>Contract Software Engineer</em></h3>
+                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                        <u1>
+                            <li>Engineered a collaborative study widget from scratch using React, Typescript, Node.js, and the Figma REST API allowing over 4 million active users to create and test flashcards in real-time</li>
+                            <li>​​Innovated a flashcard system supporting 4 distinct question types to optimize for diverse study requirements and designed a robust flashcard shuffle feature utilizing the Fisher-Yates shuffling algorithm</li>
+                        </u1>
+                </div>
+                <div class="experience-list-item">
+                    <h3>UC Berkeley CS 61A | <em>Academic Intern</em></h3>
+                    <ul>
+                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                        <li>Course staff for ~50 students during weekly lab sections for Structure & Interpretation of Computer Programs course</li>
+                        <li>Taught programming fundamentals such as object-oriented programming, basic data structures, and recursion through worksheets and hands-on programming exercises</li>
+                    </ul>
+                </div>
+                <div class="experience-list-item">
+                    <h3>M1 Finance | <em>Contract Technical Consultant</em></h3>
+                    <ul>
+                        <li>Employed SQL queries and R libraries to manipulate and amalgamate 1000+ survey responses</li>
+                        <li>Completed a multi-regression study with Pandas and NumPy to provide product development and marketing executives at M1 with user-acquisition insights</li>
+                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                    </ul>
+                </div>
+            </div>
+            <!-- Question 3c. Create a div that contains/wraps around all the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
+        </div>
+
+        <div class="section-wrapper" id="projects">
+            <h2>Projects</h2>
+            <div class="project-wrapper">
+            <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
+                <div class="project-list-item">
+                    <h3>Snek | C</h3>
+                    <u1>
+                        <li>Implemented board, state, and snakes utilizing structs and memory allocation</li>
+                        <li>Debugged segfaults and memory leak errors with CGDB and Valgrind</li>
+                    </u1>
+                </div>
+                <div class="project-list-item">
+                    <h3>Build Your Own World | Java</h3>
+                    <u1>
+                        <li>Developed pseudorandom 2D tile-based world generation algorithm with rooms and hallways using Princeton StdDraw</li>
+                        <li>Implemented interactivity with UI elements like avatar customization buttons, display screen, save/load feature, etc. for users to explore and play</li>
+                    </u1>
+                </div>
+                <div class="project-list-item">
+                    <h3>NGordnet (NGrams/Wordnets) | Java</h3>
+                    <u1>
+                        <li>Visualized the relationships between words by enabling users to select a word and highlight its hypernyms and hyponyms on a graph of synsets</li>
+                        <li>Utilized numerous data structures (HashMaps, TreeMaps, Lists, Stacks, Trees, Queues, etc.) to create new data structures to parse through various Wordnet datasets</li>
+                    </u1>
+                </div>
+            </div>
+            <!-- Question 4b. Create a div that contains/wraps around all the projects-list-item divs named "project-wrapper". You'll need this later! -->
+        </div>
+
+        <div class="section-wrapper" id="contact">
+            <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
+            <p>You can contact me
+            <a href="https://www.instagram.com/dd33jay/?hl=en">here!
+            </a>
+            </p>
+        </div>
+
+    </body>
+</html>

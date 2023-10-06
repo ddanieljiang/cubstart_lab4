@@ -1,0 +1,22 @@
+p {
+    color: rgb(100, 100, 100);
+}
+
+.intro {
+    color: green;
+}
+
+#abc {
+    color: red;
+}
+
+#abc:hover {
+    color: blue;
+}
+
+.box {
+    background-color: lightblue;
+    width: 50vw;
+    height: 50vh;
+    margin: 16px;
+}
